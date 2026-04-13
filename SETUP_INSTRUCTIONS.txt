@@ -1,0 +1,40 @@
+UMA ESTIMATING BACKEND - SETUP INSTRUCTIONS
+=============================================
+
+STEP 1: Prepare your computer
+1. Create a new folder on your computer named: uma-estimating-backend
+   (You can put this anywhere: Desktop, Documents, Downloads, etc.)
+2. Extract/copy all the files from this package into that folder
+3. Your folder should contain:
+   - main.py
+   - config.py
+   - routes.py
+   - models.py
+   - database.py
+   - auth.py
+   - schemas.py
+   - requirements.txt
+   - Procfile
+   - .env.example
+   - README.txt (this file)
+
+STEP 2: Initialize Git and push to GitHub
+1. Open Terminal/Command Prompt
+2. Navigate to your folder:
+   cd /path/to/uma-estimating-backend
+
+3. Run these commands in order:
+   git init
+   git add .
+   git commit -m "Initial backend deployment"
+   git branch -M main
+   git remote add origin https://github.com/atroiani0012-wq/uma-estimating-backend.git
+   git push -u origin main
+
+4. When done, go to your GitHub repo and verify all files are there
+
+STEP 3: Continue with Railway deployment
+After the code is pushed to GitHub, Railway will automatically detect it and build.
+Follow the deployment instructions starting from STEP 2 in FINAL_DEPLOYMENT_EXECUTION.md
+
+Questions? Check FINAL_DEPLOYMENT_EXECUTION.md in the outputs folder.
